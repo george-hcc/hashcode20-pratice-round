@@ -1,3 +1,5 @@
+all: ex1 ex2 ex3 ex4 ex5
+
 ex1:
 	@echo "Solving the 'a_example' dataset..."
 	@cat datasets/a_example.in | python3 codes/pizza.py > outputs/a_example.out

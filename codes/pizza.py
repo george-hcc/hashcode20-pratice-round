@@ -1,3 +1,6 @@
+import sys
+sys.setrecursionlimit(10000)
+
 def main():
     max_slices, plist_len = list(map(int, input().split()))
     pizza_list = list(map(int, input().split()))
